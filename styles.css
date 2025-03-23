@@ -1,0 +1,80 @@
+html {
+    scroll-behavior: smooth;
+}
+.hidden {
+    display: none;
+}
+.dot.bg-sky-500 {
+    background-color: #93dafd;
+}
+
+#thesis {
+background-color: #f1f5f9; /* Softer background for elegance */
+}
+#thesis h2 {
+    color: #000000; /* Sky blue for standout headings */
+}
+#thesis p {
+    text-align: justify; /* Align text for better readability */
+}
+#languages {
+    background-color: #f1f5f9; /* Subtle light gray background */
+}
+#languages ul {
+    padding-left: 0; /* Remove default list padding */
+}
+.hidden {
+    display: none;
+}
+
+/* Photo Slider Styles */
+#photo-slider {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.slider-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    height: auto;
+}
+
+#youtube iframe {
+    border: 0; /* Remove iframe borders */
+}
+#youtube {
+    background-color: #f9fafb; /* Light gray background for contrast */
+    padding: 50px 0;
+}
+
+
+#messages {
+    overflow-x: hidden; /* Avoid horizontal scroll */
+    overflow-y: auto; /* Enable vertical scroll for messages */
+    max-height: 300px; /* Set a fixed height */
+}
+#messages::-webkit-scrollbar {
+    width: 8px; /* Customize scrollbar */
+}
+#messages::-webkit-scrollbar-thumb {
+    background-color: #93dafd; /* Scrollbar color */
+    border-radius: 4px;
+}
+
+#messages::-webkit-scrollbar-track {
+    background-color: #f1f5f9;
+}
+.hidden {
+    display: gray;
+}
+.dot.bg-sky-500 {
+    background-color: #93dafd;
+}

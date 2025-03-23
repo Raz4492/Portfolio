@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheikh Md. Razibul Hasan Raj - Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to external CSS -->
+    
+    <style>
+    .dark-mode {
+        background-color: #1a202c;
+        color: white;
+    }
+    .dark-mode .bg-white {
+        background-color: #2d3748 !important;
+    }
+    .dark-mode .text-gray-900 {
+        color: white !important;
+    }
+    .dark-mode .text-gray-800 {
+        color: white !important;
+    }
+    .dark-mode .text-gray-700 {
+        color: #cbd5e0 !important;
+    }
+    .dark-mode .text-gray-600 {
+        color: #cbd5e0 !important;
+    }
+    .dark-mode .text-sky-800 {
+        color: #ffffff !important;
+    }
+    .dark-mode .bg-gray-100 {
+        background-color: #4a5568 !important;
+    }
+    .dark-mode .bg-gradient-to-r {
+        background: linear-gradient(to right, #2d3748, #1a202c) !important;
+    }
+    .dark-mode .shadow-lg {
+        background-color: #2d3748 !important;
+    }
+    .dark-mode a {
+        color: #93c5fd !important;
+    } </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-white text-gray-900">
+    <!-- // Header Section -->
+    <header class="bg-white shadow-md fixed top-0 left-0 w-full z-50 bg-opacity-10 transition duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center py-4">
+            <!-- Logo and Portfolio Text -->
+            <a href="#hero" class="flex items-center space-x-4">
+                <img src="logo.svg" alt="Logo" class="h-10 w-10">
+                <span class="text-xl font-bold text-gray-800">Sheikh Md. Razibul Hasan Raj's Portfolio</span>
+            </a>
+    
+            <div class="flex items-center space-x-4 absolute top-4 right-20">
+                <!-- Dropdown Menu -->
+                <div class="relative">
+                    <button id="menuButton" class="focus:outline-none">
+                        <img src="menu.svg" alt="Menu Icon" class="h-9 w-6">
+                    </button>
+
+                    <div id="menuDropdown" class="hidden absolute right-0 mt-2 w-48 bg-white border rounded-lg shadow-md text-left opacity-80 transition duration-300">
+                        <a href="#hero" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Home</a>
+                        <a href="#about" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">About Me</a>
+                        <a href="#experience" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Experience</a>
+                        <a href="#education" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Education</a>
+                        <a href="#skills" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Skills</a>
+                        <a href="#thesis" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Thesis</a>
+                        <a href="#projects" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Projects</a>
+                        <a href="#languages" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Language Proficiency</a>
+                        <a href="#courses" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Courses</a>
+                        <a href="#extracurricular" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Extracurricular Activities</a>
+                        <a href="#certification" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Certifications</a>
+                        <a href="#hobbies" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Hobbies</a>
+                        <a href="#photography" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Photography</a>
+                        <a href="#contact" class="block px-4 py-2 text-gray-800 hover:bg-sky-500 hover:text-white">Contact Me</a>
+                    </div>
+                </div>
+
+                <!-- Dark Mode Toggle Button -->
+                <p> </p>
+                <button id="darkModeToggle" class="focus:outline-none">
+                    <img src="moon.png" alt="Toggle Dark Mode" class="h-6 w-6">
+                </button>
+            </div>
+        </div>
+    </header>
+    
+
+<!-- Hero Section -->
+    <section id="hero"
+        class="h-screen flex items-center bg-cover bg-center bg-no-repeat relative" 
+		<div style="background-image: url('cover.jpg'); width: 100vw; height: 100vh; background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
+
+
+        
+        <!-- Content -->
+        <div class="absolute right-10 text-right text-gray-800 p-5 bg-white rounded-lg shadow-lg" style="width: auto; max-width: 40%; opacity: 0.8; box-shadow: black;">
+            <h1 class="text-5xl font-bold mb-4">Sheikh Md. Razibul Hasan Raj</h1>
+            <div id="role" class="text-2xl text-gray-800 mb-4">I am a Programmer</div>
+        </div>
+        
+    </section>
+
+    <!-- Content Below -->
+    <section class="p-10 bg-white">
+        <h2 class="text-gray-800 text-3xl font-bold text-center">Welcome to My Portfolio</h2>
+        <p class="text-gray-800 mt-6 max-w-3xl mx-auto text-center">
+            Explore my journey, my work, and the skills I bring to the table. Scroll below to learn more about my professional experience, academic achievements, and projects.
+        </p>
+    </section>
+    <!-- //About Section -->
+    <section id="about" class="p-10 bg-gray-100 text-center">
+        <h2 class="text-gray-800 text-3xl font-bold mb-6">About Me</h2>
+        <div class="bg-white p-10 mx-auto shadow-lg">
+            <div class="grid grid-cols-1 md:grid-cols-2 items-center">
+                <!-- Full Image -->
+                <div class="flex justify-center">
+                    <img src="profile.jpg" alt="Ayon Roy Profile Photo" class="w-full h-auto max-w-md shadow-lg">
+                </div>
+                <!-- About Details -->
+                <div class="text-gray-800 text-left mt-6 md:mt-0 md:ml-10">
+                    <p class="text-lg custom-justify">
+                        Hi! I am Sheikh Md. Razibul Hasan Raj, a CSE graduate from Islamic University. Passionate about technology, programming, and continuous learning, I possess strong skills in web development, programming, and machine learning. My academic journey includes impactful projects and experience as a Student Tutor. I aim to innovate and contribute to solving real-world challenges.
+                    </p>
+                    <!-- Add Custom CSS -->
+                    <style>
+                        .custom-justify {
+                            text-align: justify;
+                        }
+                    </style>
+                    <ul class="mt-4">
+                        <p><br></p>
+                        <li><strong>Birthday:</strong> Oct 11, 1994</li>
+                        <li><strong>Age:</strong> <span id="age"></span></li>
+                        <li><strong>City:</strong> Khulna, Bangladesh</li>
+                        <li><strong>Home Town:</strong> Khulna</li>
+                        <li><strong>Degree:</strong> Bachelor of Science (Hons)</li>
+                        <li><strong>Department:</strong> Information & Communication Engineering</li>
+                        <p><br></p><p><br></p>
+                    </ul>
+                    <!-- Download CV Button -->
+                    <div class="mt-6">
+                        <a href="Razibul_CV.pdf" download="Razibul_CV.pdf" class="bg-sky-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-sky-700 transition duration-300">
+                            Download CV
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Experience Section -->
+    <section id="experience" class="p-10 bg-gradient-to-r from-sky-300 to-white text-center">
+        <h2 class="text-gray-800 text-3xl font-bold">Experience</h2>
+        <div class="bg-white p-10 mt-6 mx-auto shadow-lg rounded-lg max-w-4xl">
+            <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+                <!-- Intern -->
+                <div class="bg-gray-100 p-6 rounded-lg border-t-4 border-sky-500 shadow-md text-center max-w-xs">
+                    <h3 class="text-xl font-semibold text-gray-800">Intern</h3>
+                    <p class="text-sm text-gray-800 mt-2">NCC Bank, Head Office IT Division</p>
+                    <p class="text-sm text-gray-800 mt-1"><i>March 2025 - Present</i></p>
+                </div>
+                <!-- Student Tutor -->
+                <div class="bg-gray-100 p-6 rounded-lg border-t-4 border-sky-500 shadow-md text-center max-w-xs">
+                    <h3 class="text-xl font-semibold text-gray-800">Student Tutor</h3>
+                    <p class="text-sm text-gray-800 mt-2">Islamic University</p>
+                    <p class="text-sm text-gray-800 mt-1"><i>May 2023 - October 2024</i></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="p-10 text-center bg-gray-100">
+    <h2 class="text-3xl font-bold text-gray-800 mb-6">Educational Background</h2>
+    <div class="flex flex-wrap justify-center gap-8">
+        <!-- <p><br></p> -->
+        <!-- SSC Button -->
+        <button 
+            class="p-4 bg-gradient-to-r from-sky-500 to-blue-700 text-white font-semibold rounded-lg shadow-md hover:scale-105 hover:shadow-lg transform transition-transform duration-300"
+            onclick="toggleDropdown('ssc')">SSC</button>
+        
+        <!-- HSC Button -->
+        <button 
+            class="p-4 bg-gradient-to-r from-sky-500 to-blue-700 text-white font-semibold rounded-lg shadow-md hover:scale-105 hover:shadow-lg transform transition-transform duration-300"
+            onclick="toggleDropdown('hsc')">HSC</button>
+        
+        <!-- BSC Button -->
+        <button 
+            class="p-4 bg-gradient-to-r from-sky-500 to-blue-700 text-white font-semibold rounded-lg shadow-md hover:scale-105 hover:shadow-lg transform transition-transform duration-300"
+            onclick="toggleDropdown('bsc')">BSC</button>
+    </div>
+
+    <!-- Details Section -->
+    <div id="details-container" class="mt-6">
+        <!-- SSC Details -->
+        <div id="ssc" class="hidden bg-white p-6 rounded-lg shadow-md text-center max-w-lg mx-auto">
+            <h3 class="text-xl font-semibold text-gray-700 mb-2">SSC</h3>
+            <p class="text-gray-800">Cumilla Modern High School</p>
+            <p class="text-gray-800">Year: 2017</p>
+            <p class="text-gray-800">GPA: 5.00</p>
+        </div>
+        
+        <!-- HSC Details -->
+        <div id="hsc" class="hidden bg-white p-6 rounded-lg shadow-md text-center max-w-lg mx-auto">
+            <h3 class="text-xl font-semibold text-gray-700 mb-2">HSC</h3>
+            <p class="text-gray-800">Cumilla Victoria Govt College</p>
+            <p class="text-gray-800">Year: 2019</p>
+            <p class="text-gray-800">GPA: 4.83</p>
+        </div>
+        
+        <!-- BSC Details -->
+        <div id="bsc" class="hidden bg-white p-6 rounded-lg shadow-md text-center max-w-lg mx-auto">
+            <h3 class="text-xl font-semibold text-gray-700 mb-2">BSC in CSE</h3>
+            <p class="text-gray-800">Islamic University</p>
+            <p class="text-gray-800">Year: 2024</p>
+            <p class="text-gray-800">CGPA: 3.90</p>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Skills Section -->
+    <section id="skills" class="p-10 bg-gradient-to-r from-white to-sky-300 shadow-md text-center">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">Skills<br></h2>
+        <div class="grid grid-cols-2 gap-6">
+            <button class="p-4 bg-gradient-to-r from-sky-500 to-blue-700 text-white font-semibold rounded-lg shadow hover:scale-105 hover:shadow-lg transform transition-transform duration-300" onclick="showSkills('WEB')">Web Language</button>
+            <button class="p-4 bg-gradient-to-r from-green-500 to-teal-700 text-white font-semibold rounded-lg shadow hover:scale-105 hover:shadow-lg transform transition-transform duration-300" onclick="showSkills('DB')">Database</button>
+            <button class="p-4 bg-gradient-to-r from-yellow-500 to-orange-600 text-white font-semibold rounded-lg shadow hover:scale-105 hover:shadow-lg transform transition-transform duration-300" onclick="showSkills('PL')">Programming Language</button>
+            <button class="p-4 bg-gradient-to-r from-purple-500 to-pink-700 text-white font-semibold rounded-lg shadow hover:scale-105 hover:shadow-lg transform transition-transform duration-300" onclick="showSkills('ML')">Machine Learning</button>
+        </div>
+        <div id="skills-info" class="mt-6 bg-white p-6 rounded-lg shadow-lg text-gray-800 text-left mx-auto max-w-md hidden"></div>
+    </section>
+
+    <!-- Thesis Section -->
+    <section id="thesis" class="p-12 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">Research</h2>
+        <div class="bg-white p-10 mx-auto shadow-lg rounded-lg max-w-4xl">
+            <h3 class="text-2xl font-bold text-sky-500 mb-6">Advancing Bangla Machine Translation Through Informal Datasets</h3>
+            <p class="text-gray-700 text-lg custom-justify mb-6">
+                This thesis explores advancing Bangla machine translation using informal datasets. Leveraging cutting-edge NLP techniques such as LSTM, BiLSTM, and BERT (mT5-large), the study evaluates translation quality using BLEU metrics. Implementation tools include PyTorch, TensorFlow, and Keras, aiming to contribute to the innovative field of Natural Language Processing (NLP).
+            </p>
+            <ul class="text-left text-gray-700 list-disc pl-8 mb-6">
+                <li><strong>Area of Research:</strong> Natural Language Processing (NLP)</li>
+                <li><strong>Technologies Used:</strong> PyTorch, TensorFlow, Keras</li>
+                <li><strong>Core Algorithms:</strong> LSTM, BiLSTM, BERT (mT5-large)</li>
+                <li><strong>Evaluation Metric:</strong> BLEU (Bilingual Evaluation Understudy)</li>
+            </ul>
+            <a href="#contact" class="inline-block bg-sky-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-sky-700 transition duration-300">
+                Contact for Details
+            </a>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="p-10 text-center bg-gradient-to-r from-sky-300 to-white">
+        <h2 class="text-gray-800 text-3xl font-bold">Projects</h2>
+        <!-- First Three Projects with Images -->
+        <div class="text-gray-800 grid grid-cols-3 gap-4 mt-6">
+            <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <a href="https://github.com/Ay-on-Roy/GadgetEarth">
+                    <img src="ecom.jpg" alt="GadgetEarth Homepage" class="rounded mb-2">
+                </a>
+                <a href="https://github.com/Ay-on-Roy/GadgetEarth" class="text-sky-500"><b>GadgetEarth</b></a> 
+                <br>An e-commerce platform: Built using React and Django
+            </div>
+            <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <a href="https://github.com/Ay-on-Roy/Intercity-Transit-System">
+                    <img src="bus.jpg" alt="Intercity Transit Homepage" class="rounded mb-2">
+                </a>
+                <a href="https://github.com/Ay-on-Roy/Intercity-Transit-System" class="text-sky-500"><b>Intercity Transit System</b></a> 
+                <br>A bus ticketing service developed using HTML, CSS, MySQL, and JavaScript
+            </div>
+            <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <a href="https://github.com/Ay-on-Roy/USIS-Routine-Generator">
+                    <img src="usis.jpg" alt="USIS Routine Homepage" class="rounded mb-2">
+                </a>
+                <a href="https://github.com/Ay-on-Roy/USIS-Routine-Generator" class="text-sky-500"><b>USIS Routine Generator</b></a> 
+                <br>A university routine generator created with HTML, CSS, MySQL, and JavaScript
+            </div>
+        </div>
+
+        <!-- Remaining Six Projects in Boxes -->
+        <div class="text-gray-800 grid grid-cols-3 gap-4 mt-6">
+            <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <a href="https://github.com/Ay-on-Roy/Online-Payments-Fraud-Detection" class="text-sky-500"><b>Online Payments Fraud Detection</b></a> 
+                <br>Classifies fraud in online transactions
+            </div>
+            <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <a href="https://github.com/Ay-on-Roy/Detecting-Sarcasm-in-Englsih" class="text-sky-500"><b>Detecting Sarcasm in English</b></a> 
+                <br>Classifies slang and sarcasm in sentences
+            </div>
+            <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <a href="https://github.com/Ay-on-Roy/A-Blind-Stick-with-Morse-Code-response-GSM" class="text-sky-500"><b>Blind Stick with Morse Code Response & GSM</b></a> 
+                <br>Built using Arduino and various sensors
+            </div>
+            <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <a href="https://github.com/Ay-on-Roy/A-Snake-Game" class="text-sky-500"><b>Snake Game</b></a> 
+                <br>A basic game demonstrating OOP principles
+            </div>
+            <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <a href="https://github.com/Ay-on-Roy/A-Balling-Game-Model" class="text-sky-500"><b>Bowling Game Model</b></a> 
+                <br>A graphical game developed using Pygame
+            </div>
+            <div class="bg-gray-100 p-4 shadow rounded-lg hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <a href="https://github.com/Ay-on-Roy/Water-Level-Indecator" class="text-sky-500"><b>Water Level Indicator</b></a> 
+                <br>Designed using a 3-8 Decoder
+            </div>
+        </div>
+    </section>
+
+    <!-- Language Proficiency Section -->
+    <section id="languages" class="p-10 bg-gray-100 text-center">
+        <h2 class="text-gray-800 text-3xl font-extrabold mb-8">Language Proficiency</h2>
+        <div class="bg-white p-10 mx-auto shadow-lg rounded-lg max-w-4xl">
+            <ul class="text-left text-gray-700">
+                <li class="mb-4">
+                    <strong>English:</strong>
+                    <div class="bg-gray-200 rounded-full h-3 w-full mt-2">
+                        <div class="bg-sky-500 h-3 rounded-full" style="width: 95%;"></div>
+                    </div>
+                    <span class="text-gray-600 text-sm italic">Fluent</span>
+                </li>
+                <li class="mb-4">
+                    <strong>Bangla:</strong>
+                    <div class="bg-gray-200 rounded-full h-3 w-full mt-2">
+                        <div class="bg-sky-500 h-3 rounded-full" style="width: 100%;"></div>
+                    </div>
+                    <span class="text-gray-600 text-sm italic">Native</span>
+                </li>
+                <li class="mb-4">
+                    <strong>Hindi:</strong>
+                    <div class="bg-gray-200 rounded-full h-3 w-full mt-2">
+                        <div class="bg-sky-500 h-3 rounded-full" style="width: 65%;"></div>
+                    </div>
+                    <span class="text-gray-600 text-sm italic">Conversational</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- // Course Section -->
+    <section id="courses" class="p-10 text-gray-800 text-center bg-gradient-to-r from-white to-sky-300">
+    <h2 class="text-3xl font-bold mb-6">Participated Courses</h2>
+    <div class="relative w-full max-w-4xl mx-auto">
+        <!-- Course Slider -->
+        <div id="course-slider" class="text-gray-800 flex overflow-x-auto snap-x snap-mandatory">
+            <!-- Slide 1 -->
+            <div class="grid grid-cols-4 gap-4 snap-start shrink-0 w-full">
+                <div class="bg-gray-100 p-4 rounded shadow">Foundation Course (in English)</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Mathematics I: Differential Calculus & Coordinate Geometry</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Programming Language I</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Programming Language-II</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Fundamentals of English</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Mathematics II: Integral Calculus & Differential Equations</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Principles of Physics I</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Bangla Language and Literature</div>
+            </div>
+            <!-- Slide 2 -->
+            <div class="grid grid-cols-4 gap-4 snap-start shrink-0 w-full">
+                <div class="bg-gray-100 p-4 rounded shadow">Emergence of Bangladesh</div>
+                <div class="bg-gray-100 p-4 rounded shadow">English Composition I</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Ethics and Culture</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Digital Logic Design</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Mathematics IV: Linear Algebra & Fourier Analysis</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Principles of Physics II</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Elements of Statistics and Probability</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Data Structures</div>
+            </div>
+            <!-- Slide 3 -->
+            <div class="grid grid-cols-4 gap-4 snap-start shrink-0 w-full">
+                <div class="bg-gray-100 p-4 rounded shadow">Discrete Mathematics</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Circuits and Electronics</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Mathematics III: Complex Variables & Laplace Transformations</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Algorithms</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Electronic Devices and Circuits</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Numerical Methods</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Data Communications</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Automata and Computability</div>
+            </div>
+            <!-- Slide 4 -->
+            <div class="grid grid-cols-4 gap-4 snap-start shrink-0 w-full">
+                <div class="bg-gray-100 p-4 rounded shadow">Microprocessors</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Database Systems</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Introduction to Biology</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Digital Electronics and Pulse Techniques</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Computer Interfacing</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Compiler Design</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Computer Architecture</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Artificial Intelligence</div>
+            </div>
+            <!-- Slide 5 -->
+            <div class="grid grid-cols-4 gap-4 snap-start shrink-0 w-full">
+                <div class="bg-gray-100 p-4 rounded shadow">Computer Graphics</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Natural Language Processing II</div>
+                <div class="bg-gray-100 p-4 rounded shadow">VLSI Design</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Introduction to Robotics</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Software Engineering</div>
+                <div class="bg-gray-100 p-4 rounded shadow">World Civilization and Culture</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Business - Basics, Ethics and Environment</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Operating Systems</div>
+            </div>
+            <!-- Slide 6 -->
+            <div class="grid grid-cols-4 gap-4 snap-start shrink-0 w-full">
+                <div class="bg-gray-100 p-4 rounded shadow">System Analysis and Design</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Introduction to Macroeconomics</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Introduction to Microeconomics</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Introduction to Anthropology</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Project & Thesis</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Computer Networks</div>
+                <div class="bg-gray-100 p-4 rounded shadow">Cryptography and Cryptoanalysis</div>
+            </div>
+        </div>
+        <!-- Navigation Dots -->
+        <div class="flex justify-center mt-4">
+            <button class="dot h-3 w-3 bg-gray-400 rounded-full mx-1"></button>
+            <button class="dot h-3 w-3 bg-gray-400 rounded-full mx-1"></button>
+            <button class="dot h-3 w-3 bg-gray-400 rounded-full mx-1"></button>
+            <button class="dot h-3 w-3 bg-gray-400 rounded-full mx-1"></button>
+            <button class="dot h-3 w-3 bg-gray-400 rounded-full mx-1"></button>
+            <button class="dot h-3 w-3 bg-gray-400 rounded-full mx-1"></button>
+        </div>
+    </div>
+    </section>
+    
+
+
+    <!-- Extracurricular Activities Section -->
+    <section id="extracurricular" class="p-10 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">Extracurricular Activities</h2>
+        <div class="flex flex-col md:flex-row justify-center items-center gap-8 max-w-5xl mx-auto">
+            <!-- Activity 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-md hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <div class="flex items-center justify-center mb-4">
+                    <img src="bucc.svg" alt="BUCC Logo" class="w-16 h-16">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">General Member</h3>
+                <p class="text-gray-600">BRAC University Computer Club (BUCC)</p>
+            </div>
+            <!-- Activity 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-md hover:scale-105 hover:shadow-lg transform transition-transform duration-300">
+                <div class="flex items-center justify-center mb-4">
+                    <img src="byso.png" alt="BYSO Logo" class="w-16 h-16">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-800 mb-2">Volunteer</h3>
+                <p class="text-gray-600">Bangladesh Youngster Social Organization (BYSO)</p>
+            </div>
+        </div>
+    </section>
+
+
+   <!-- Certifications Section -->
+    <section id="certification" class="p-10 bg-gradient-to-r from-sky-300 to-white text-center">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">Certifications</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-6xl mx-auto">
+            <!-- Certificate 1 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
+                <a href="https://www.life-global.org/certificate/727913ea-99fe-470f-8db7-8796ee1893fd" target="_blank">
+                    <img src="EL.jpeg" alt="Effective Leadership Certification" class="w-full h-auto mb-4 rounded">
+                    <h3 class="text-xl font-semibold text-gray-800">Effective Leadership</h3>
+                    <p class="text-gray-600 mt-2">HP Life Certified</p>
+                </a>
+            </div>
+            <!-- Certificate 2 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
+                <a href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxNzc3IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvNzUyMzUxOF83NzExNzM3MTczMDc0ODUzMTUyNy5wbmciLCJ1c2VybmFtZSI6IkFZT04gUk9ZIn0%3D&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4277%2FIntroduction-to-MS-Excel%2Fcertificate%2Fdownload-skillup&%24web_only=true" target="_blank">
+                    <img src="excel.jpg" alt="Introduction to MS Excel Certification" class="w-full h-auto mb-4 rounded">
+                    <h3 class="text-xl font-semibold text-gray-800">Introduction to MS Excel</h3>
+                    <p class="text-gray-600 mt-2">Simplilearn Certified</p>
+                </a>
+            </div>
+            <!-- Certificate 3 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
+                <a href="https://www.mygreatlearning.com/certificate/VNTFTOXU" target="_blank">
+                    <img src="SB.jpeg" alt="Selenium Basics Certification" class="w-full h-auto mb-4 rounded">
+                    <h3 class="text-xl font-semibold text-gray-800">Selenium Basics</h3>
+                    <p class="text-gray-600 mt-2">Great Learning Academy</p>
+                </a>
+            </div>
+            <!-- Certificate 4 -->
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition-transform duration-300">
+                <a href="https://www.udemy.com/certificate/UC-eb561803-f16e-4ced-851d-b7fdb58fd469/" target="_blank">
+                    <img src="Data Privacy.jpeg" alt="Data Privacy and Protection Auditor Certification" class="w-full h-auto mb-4 rounded">
+                    <h3 class="text-xl font-semibold text-gray-800">Data Privacy and Protection Auditor (CDPPA)</h3>
+                    <p class="text-gray-600 mt-2">Udemy Certified</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Hobbies Section -->
+    <section id="hobbies" class="p-10 bg-gray-100 text-center">
+        <h2 class="text-gray-800 text-3xl font-bold">Hobbies</h2>
+        <div class="text-gray-800 flex justify-center gap-40 mt-6">
+            <div class="flex flex-col items-center">
+                <img src="coding.svg" alt="Programming" class="w-16 h-16">
+                <span>Programming</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="cycling.svg" alt="Riding Bicycle" class="w-16 h-16">
+                <span>Riding Bicycle</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="travelling.svg" alt="Traveling" class="w-16 h-16">
+                <span>Traveling</span>
+            </div>
+            <div class="flex flex-col items-center">
+                <img src="joystick.svg" alt="Gaming" class="w-16 h-16">
+                <span>Gaming</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photography Section -->
+    <section id="photography" class="p-12 bg-gradient-to-r from-white to-sky-300 text-center">
+        <h2 class="text-gray-800 text-3xl font-extrabold mb-8">Photography</h2>
+        <div class="relative mx-auto max-w-4xl">
+            <div id="photo-slider" class="rounded-lg"></div>
+            <button id="prev" class="absolute left-0 top-1/2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white px-4 py-2 rounded-full hover:bg-opacity-70">&#9664;</button>
+            <button id="next" class="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 bg-opacity-50 text-white px-4 py-2 rounded-full hover:bg-opacity-70">&#9654;</button>
+        </div>
+    </section>
+
+    <!-- YouTube Video Section -->
+    <section id="youtube" class="p-10 bg-white text-center">
+        <h2 class="text-3xl font-bold mb-6 text-gray-800">YouTube Videos</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <!-- Video 1 -->
+            <div class="shadow-lg rounded-lg overflow-hidden">
+                <iframe width="100%" height="315" 
+                    src="https://www.youtube.com/embed/KP7oMz_Otcc?si=NrhxAgGhqg0LRU11" 
+                    title="Ceminer of Chief Astronaut of NASA - Joseph M. Acaba" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <!-- Video 2 -->
+            <div class="shadow-lg rounded-lg overflow-hidden">
+                <iframe width="100%" height="315" 
+                    src="https://www.youtube.com/embed/6swbQ8rY2Lc?si=SIeKE1PSRtpKVi69" 
+                    title="Bus Ticketing System" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            <!-- Video 3 -->
+            <div class="shadow-lg rounded-lg overflow-hidden">
+                <iframe width="100%" height="315" 
+                    src="https://www.youtube.com/embed/sjYNmJKQbHM?si=ckx4flQe2ETYLp1Z" 
+                    title="E-commerce Platform" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Message Section -->
+    <section class="p-10 text-gray-800 bg-gradient-to-r from-sky-300 to-white">
+        <div class="bg-white shadow-lg rounded-lg p-10 flex flex-col md:flex-row items-start justify-between max-w-5xl mx-auto">
+            <!-- Left Side: Contact Me Heading -->
+            <div class="flex-1 text-left">
+                <h2 class="text-3xl mb-6"><b>Messages</b></h2>
+                <p class="text-gray-700 text-lg">
+                    Feel free to reach out to me by sending a message. I'll get back to you as soon as possible.
+                </p>
+            </div>
+
+            <!-- Right Side: Message Box -->
+            <div id="messages" class="flex-1 bg-gray-100 text-gray-800 p-6 rounded-lg shadow-lg overflow-y-auto" style="height: 300px; max-width: 600px;">
+                <h3 class="text-xl font-semibold mb-4">Messages</h3>
+                <div id="messages-container" class="space-y-4">
+                    <!-- Messages will appear here dynamically -->
+                    <p class="text-gray-500 italic">No messages yet.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="p-10 bg-white text-gray-800 ">
+    <h2 class="text-3xl font-bold mb-6 text-center">Contact Me</h2>
+    <div class="flex flex-col md:flex-row justify-between items-start gap-12 max-w-5xl mx-auto">
+        <!-- Contact Details -->
+        <div class="flex-1">
+            <h3 class="text-xl font-semibold mb-4">Let's Connect</h3>
+            <p class="mb-2">
+                <strong>Location:</strong> Middle Badda, Dhaka, Bangladesh
+            </p>
+            <p class="mb-2">
+                <strong>Phone:</strong> <a href="tel:+8801521563743" class="text-black-500 hover:underline">+8801521563743</a>
+            </p>
+            <p class="mb-2">
+                <strong>Email:</strong> <a href="mailto:ayonroycvc@gmail.com" class="text-black-500 hover:underline">ayonroycvc@gmail.com</a>
+            </p>
+            <p class="mb-4">
+                <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/ayonroy-29-ayonroy" class="text-black-500 hover:underline">ayonroy-29-ayonroy</a>
+            </p>
+            <p class="mb-4">
+                <strong>GitHub:</strong> <a href="https://github.com/Ay-on-Roy" class="text-black-500 hover:underline">Ay-on-Roy</a>
+            </p>
+            <!-- Social Media Icons -->
+            <div class="flex gap-4 mt-6">
+                <a href="https://github.com/Ay-on-Roy" target="_blank">
+                    <img src="github.svg" alt="GitHub" class="w-6 h-6">
+                </a>
+                <a href="https://www.linkedin.com/in/ayonroy-29-ayonroy/" target="_blank">
+                    <img src="linkedin.svg" alt="LinkedIn" class="w-6 h-6">
+                </a>
+                <a href="https://www.facebook.com/ayon.roy.AR" target="_blank">
+                    <img src="fb.svg" alt="Facebook" class="w-6 h-6">
+                </a>
+                <a href="https://www.youtube.com/@anonymous_channel1" target="_blank">
+                    <img src="youtube.svg" alt="Youtube" class="w-6 h-6">
+                </a>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="flex-1 bg-white text-gray-800 p-6 rounded-lg shadow-lg" onsubmit="submitMessage(event)">
+            <h3 class="text-xl font-semibold mb-4">Send a Message</h3>
+            <input id="name" type="text" placeholder="Name" class="w-full mb-4 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 outline-none" required>
+            <input id="email" type="email" placeholder="Email" class="w-full mb-4 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 outline-none" required>
+            <textarea id="message" placeholder="Message" class="w-full mb-4 p-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sky-500 outline-none" required></textarea>
+            <button type="submit" class="bg-sky-500 text-white w-full py-3 rounded-lg shadow hover:scale-105 transform transition-transform duration-300">
+                Send <i class="fas fa-paper-plane ml-2"></i>
+            </button>
+        </form>
+    </div>
+    <p class="text-blue text-center text-sm mt-12 opacity-75">© ALL OF THE RIGHTS RESERVED BY AYON ROY</p>
+    <p class="text-sky-800 text-center text-sm opacity-75">Designed By <a href="github.com/Ay-on-Roy" class="text-center text-sm mt-2 opacity-75">Ay-on-Roy</a></p>
+    </section>
+    <script>
+    // Dark Mode Toggle
+    const darkModeToggle = document.getElementById('darkModeToggle');
+        const body = document.body;
+        
+        // Check for saved user preference in localStorage
+        if (localStorage.getItem('darkMode') === 'enabled') {
+            body.classList.add('dark-mode');
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-mode');
+            if (body.classList.contains('dark-mode')) {
+                localStorage.setItem('darkMode', 'enabled');
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+            }
+        }); </script>
+    <script src="script.js"></script>
+
+</body>
+</html>
