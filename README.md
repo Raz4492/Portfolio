@@ -1,4 +1,4 @@
-# Ayon Roy's Portfolio 🌟
+# Sheikh Md. Razibul Hasan Raj's Portfolio 🌟
 
 Welcome to my personal portfolio repository! This project showcases my journey, skills, achievements, and projects in one cohesive space. It's designed to provide a comprehensive insight into my technical expertise, educational background, and extracurricular activities.
 
@@ -59,7 +59,7 @@ Check out the live version of my portfolio [here](https://ay-on-roy.github.io/Po
 git clone https://github.com/Ay-on-Roy/Portfolio.git
 
 🧑‍💻 About Me
-I am Ayon Roy, a CSE graduate from BRAC University, passionate about web development, machine learning, and technology. My portfolio reflects my academic and professional journey, showcasing my technical expertise and creativity.
+I am Sheikh Md. Razibul Hasan Raj, a CSE graduate from BRAC University, passionate about web development, machine learning, and technology. My portfolio reflects my academic and professional journey, showcasing my technical expertise and creativity.
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to fork the repository and submit pull requests for improvements.
@@ -71,7 +71,7 @@ Email: ayonroycvc@gmail.com
 
 GitHub: Ay-on-Roy
 
-LinkedIn: Ayon Roy
+LinkedIn: Sheikh Md. Razibul Hasan Raj
 
 🔖 License
 This repository is open-source and available under the MIT License. See LICENSE for more details.
